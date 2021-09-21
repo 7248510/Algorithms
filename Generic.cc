@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//cl /sdl /W4 /TP /EHsc Generic.cc && Generic.exe
 void staticExample()
 {
     static int i{0};
@@ -47,13 +46,14 @@ void less_than(int values[], int numOf) {
             }
         }
     }
+    std::cout << std::endl;
 }
 
 
 int main()
 {
 //This can be program can be condensed into one function
-    int a[5] = {4,3,57,4,56};
+    int a[5] = {4,3,70,4,65};
     equal_to(a,5);
     greater_than(a,5);
     less_than(a,5);
