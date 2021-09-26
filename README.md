@@ -1,5 +1,5 @@
 # Algorithms
-Learning algorithms
+Learning algorithms and data structures
 
 Resources:
 * Algorithmic Thinking By Daniel Zingaro
